@@ -1,0 +1,672 @@
+html{
+  scroll-behavior: smooth;
+  font-family: 'Changa One', cursive;
+  width: 100%;
+  margin: 0;
+}
+
+
+body{
+  width: 100%;
+    /* background-image: url("huset1.jpg");
+    background-size: cover; */
+    background-color: white;
+    font-family: 'Changa One', cursive;
+    margin: 0;
+    padding: 0;
+    height: 100wh;
+    display: block;
+}
+#header{
+  width: 100vw;
+height: 25vh;
+  /* background: linear-gradient(180deg, rgb(0, 204, 10)-50%, rgb(255, 255, 255) 50%, rgb(202, 0, 0) 150%); */
+  background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    font-weight: 900;
+}
+
+#footer{
+  width: 100%;
+  background: white;
+    display: grid;
+ 
+    grid-template-columns: 1fr 1fr 1fr;
+    font-weight: 900;
+    color: red;
+    text-shadow: 1px 2px rgb(39, 0, 0);
+    border-top: solid rgb(255, 0, 0) 10px;
+  height: 300px;
+  
+  
+}
+
+.headerphotos{
+  height: 150px;
+ filter: drop-shadow(2.5px 2.5px black);
+  display: grid;
+   margin: auto;
+   margin-top: 40px;
+}
+
+.info{
+  margin: auto;
+  text-align: center;
+  font-size: px;
+}
+
+
+.sliderphotos{
+  height: 500px;
+   width: 500px;
+ 
+}
+
+
+
+#con-slider{
+display:flex;
+background-color: red;
+
+
+
+
+
+
+}
+
+
+#desc{
+  width: 600px;
+  filter: drop-shadow(5px 5px 5px rgb(128, 0, 0));
+  margin: auto;
+  background: linear-gradient(80deg, rgb(255, 0, 0)20%, rgb(0, 134, 7) 50%, rgb(255, 0, 0) 80%);
+  border: solid #c7000000;
+  border-radius: 20px;
+  padding: 20px;
+  font-size: 30px;
+  
+  
+}
+
+#textinbox{
+  background-color: rgb(255, 255, 255);
+  color: red;
+  padding: 20px;
+  text-shadow: 1px 1px rgb(0, 0, 0);
+  border: solid white 2px;
+  border-radius: 10px;
+  font-size: 25px;
+}
+
+#textinbox h2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  letter-spacing: 6px;
+  text-shadow: 1px 2px rgb(39, 0, 0);
+  color: rgb(12, 145, 0);
+  text-shadow: 2px 2px black;
+  font-size: 60px;
+  margin: auto;
+  padding: 10px;
+}
+
+#page{
+
+  min-height: 50vh;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 70vh;
+  background: linear-gradient(120deg, rgb(235, 235, 235)0%, rgb(255, 255, 255) 50%, rgb(255, 255, 255) 100%); 
+  background-image: url("lawn.jpg");
+  background-size: cover;
+}
+
+#container{
+  animation: "";
+  background: linear-gradient(90deg, rgb(196, 127, 0)0%, rgb(255, 255, 255) 50%, rgb(196, 127, 0) 100%);
+  border: solid rgb(255, 174, 0);
+  border-radius: 10px;
+  padding: 5px;
+  margin: auto;
+  display: flex;
+}
+
+
+@keyframes mysko {
+
+0%{
+  filter: opacity(0%);
+}
+
+50%{
+  filter: opacity(50%);
+}
+
+
+100%{
+  filter: opacity(100%);
+}
+
+
+}
+
+@keyframes myskos {
+
+  0%{
+    filter: opacity(100%);
+  }
+  
+  50%{
+    filter: opacity(50%);
+  }
+  
+  
+  100%{
+    filter: opacity(0%);
+  }
+  
+  
+  }
+
+#con{
+  display: flex;
+  width: 500px;
+  background: linear-gradient(90deg, red red red);
+  
+  overflow: hidden;
+ 
+}
+#bläddrab{
+  height: 500px;
+  width:3rem;
+  color: white;
+  font-size: 40px;
+  display: grid;
+  background: linear-gradient(rgba(255,165,0,1) 0%, rgba(167,108,0,1) 100%);
+}
+
+
+
+#bläddraf{
+  height: 500px;
+  width:50px;
+  color: white;
+  font-size: 40px;
+  display: grid;
+  background: linear-gradient(rgba(255,165,0,1) 0%, rgba(167,108,0,1) 100%);
+  
+  
+}
+
+
+/* RÖD VERSION SPELARE */
+
+#bläddrabr{
+  height: 500px;
+  width:3rem;
+  color: white;
+  font-size: 40px;
+  display: grid;
+  background: linear-gradient(90deg, rgb(255, 0, 0) 0%, rgb(110, 0, 0) 100%);
+}
+
+
+
+#bläddrafr{
+  height: 500px;
+  width:50px;
+  color: white;
+  font-size: 40px;
+  display: grid;
+
+  background: linear-gradient(90deg, rgb(110, 0, 0) 0%, rgb(255, 0, 0) 100%);
+  
+  
+}
+
+
+#containerr{
+ 
+ 
+  background: linear-gradient(100deg, rgb(255, 0, 0)20%, rgb(0, 185, 9) 50%, rgb(255, 0, 0) 80%);
+  border: solid rgba(255, 255, 255, 0);
+  border-radius: 20px;
+  padding: 20px;
+  margin: auto;
+
+  display: flex;
+  filter: drop-shadow(5px 5px 5px rgb(128, 0, 0));
+  animation: bild linear 0.2s; 
+}
+
+@keyframes bild {
+
+
+  0%{
+    
+    transform: scale3d(1.1, 1.1, 1.1);
+    
+    
+  }
+  
+  
+
+  
+  100%{
+  
+    
+  }
+}
+
+#bläddrafr .arrow{
+  animation-name: skaka;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+}
+
+#bläddrabr .arrow{
+  animation-name: skaka;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+}
+
+
+#bläddrafr:hover .arrow{
+  animation: normal 0s skaka;
+}
+
+#bläddrabr:hover .arrow{
+
+  animation: normal 0s skaka;
+}
+
+
+#bläddrafr:hover {
+  
+  animation: 0.1s gradientr forwards;
+  
+  animation-iteration-count: 1;
+}
+
+#bläddrabr:hover {
+  animation: 0.1s gradientr  forwards;
+  
+  animation-iteration-count: 1;
+
+}
+
+
+
+
+
+
+#bläddraf .arrow{
+  animation-name: skaka;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+}
+
+#bläddrab .arrow{
+  animation-name: skaka;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+}
+
+
+
+#bläddraf:hover .arrow{
+
+  animation: normal 0s skaka;
+}
+
+#bläddrab:hover .arrow{
+
+  animation: normal 0s skaka;
+}
+
+
+#bläddraf:hover {
+  
+  animation: 0.1s gradient forwards;
+  
+  animation-iteration-count: 1;
+}
+
+#bläddrab:hover {
+  animation: 0.05s gradient  forwards;
+  
+  animation-iteration-count: 1;
+
+}
+
+
+@keyframes gradient{
+
+  0%{
+    background: linear-gradient(rgb(115, 255, 0) 0%, rgb(0, 167, 0) 100%)
+    
+  }
+  20%{
+    background: linear-gradient(90deg, rgb(166, 255, 0) 0%, rgb(175, 114, 0) 100%);
+    
+  }
+
+  40%{
+    background: linear-gradient(90deg, rgba(255,165,0,1) 0%, rgb(190, 124, 0) 100%);
+    
+  }
+  60%{
+    background: linear-gradient(90deg, rgba(255,165,0,1) 0%, rgb(211, 137, 0) 100%);
+    
+  }
+
+  80%{
+    background: linear-gradient(90deg, rgba(255,165,0,1) 0%, rgb(230, 149, 0) 100%);
+    
+  }
+
+  90%{
+    background: linear-gradient(30deg, rgba(255,165,0,1) 0%, rgb(241, 157, 0) 100%);
+    
+  }
+ 
+  100%{
+    background: linear-gradient(30deg, rgba(255,165,0,1) 0%, rgb(241, 157, 0) 100%);
+  }
+}
+
+
+
+
+@keyframes gradientn{
+
+  0%{
+    background: linear-gradient(rgb(115, 255, 0) 0%, rgb(0, 167, 0) 100%)
+    
+  }
+  20%{
+    background: linear-gradient(90deg, rgb(166, 255, 0) 0%, rgb(175, 114, 0) 100%);
+    
+  }
+  40%{
+    background: linear-gradient(90deg, rgb(255, 115, 0) 0%, rgb(190, 76, 0) 100%);
+    
+  }
+  60%{
+    background: linear-gradient(90deg, rgb(255, 102, 0) 0%, rgb(211, 60, 0) 100%);
+    
+  }
+
+  80%{
+    background: linear-gradient(90deg, rgb(255, 72, 0) 0%, rgb(230, 46, 0) 100%);
+    
+  }
+
+  90%{
+    background: linear-gradient(30deg, rgb(255, 38, 0) 0%, rgb(241, 36, 0) 100%);
+    
+  }
+ 
+  100%{
+    background: linear-gradient(30deg, rgb(255, 0, 0) 0%, rgb(194, 0, 0) 100%);
+  }
+}
+
+
+
+@keyframes gradientr{
+
+  0%{
+    background: linear-gradient(rgb(255, 0, 0) 0%, rgb(167, 0, 0) 100%)
+    
+  }
+  20%{
+    background: linear-gradient(90deg, rgb(255, 0, 0) 0%, rgb(175, 0, 0) 100%);
+    
+  }
+
+  40%{
+    background: linear-gradient(90deg, rgb(255, 0, 0) 0%, rgb(190, 0, 0) 100%);
+    
+  }
+  60%{
+    background: linear-gradient(90deg, rgb(255, 0, 0) 0%, rgb(211, 0, 0) 100%);
+    
+  }
+
+  80%{
+    background: linear-gradient(90deg, rgb(255, 0, 0) 0%, rgb(230, 0, 0) 100%);
+    
+  }
+
+  90%{
+    background: linear-gradient(30deg, rgb(255, 0, 0) 0%, rgb(241, 0, 0) 100%);
+    
+  }
+ 
+  100%{
+    background: linear-gradient(30deg, rgb(255, 0, 0) 0%, rgb(255, 0, 0) 100%);
+  }
+}
+
+
+
+@keyframes skaka{
+
+  0%{
+    transform: translateY(0px);
+  }
+  25%{
+    transform: translateY(-10px);
+  }
+  50%{
+    transform: translateY(10px);
+    
+  }
+  75%{
+
+
+    transform: translateY(-10px);
+  }
+  100%{
+    transform: translateY(0px);
+    
+    
+  }
+
+}
+
+.arrow{
+  user-select: none;
+  margin: auto;
+}
+#mainlogo{
+    margin: auto;
+    height: 185px;
+    
+   filter: drop-shadow(1.5px 1.5px  black)
+    
+
+}
+
+#mainlogo:hover{
+  
+
+}
+
+
+
+
+.active{
+  background: linear-gradient(30deg, rgb(255, 0, 0) 0%, rgb(141, 0, 0) 100%);
+  
+  padding: 14px 12px;
+  text-shadow: 1px 2px black;
+  font-size: 13px;
+}
+
+.navbar {
+    background:linear-gradient(rgb(0, 155, 21) 0%, rgb(0, 90, 5) 100%);
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    border-bottom: solid red 5px;
+    height: 5vh;
+   
+  }
+  
+  /* Style the links inside the navigation bar */
+  .navbar a {
+    display: grid;
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+    text-shadow: 1px 2px rgb(0, 0, 0);
+    font-size: 15px;
+  }
+
+  .navitem{
+    margin: auto;
+    text-align: center;
+    font-size: 18px;
+  }
+  
+  /* Change the color of links on hover */
+  .navbar a:hover {
+    animation: gradientn 0.05s forwards;
+    animation-iteration-count: 1;
+    color: black;
+  }
+
+  .navbar a:hover {
+    animation: gradientn 0.05s forwards;
+    text-shadow: 0px 0px rgb(0, 0, 0);
+    animation-iteration-count: 1;
+    color: black;
+  }
+
+  .navbar .active{
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    
+  }
+  
+  
+  /* Add a color to the active/current link */
+  .navbar a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+
+#mobilenav{
+  height: 75px;
+  width: 100%;
+  background: linear-gradient(30deg, rgb(255, 0, 0) 0%, rgb(194, 0, 0) 100%);
+  position: fixed;
+  bottom: 0;
+  right: 0;
+
+  
+
+  
+ 
+  display: none;
+}
+  @media only screen and (max-width: 1300px) {
+    #page{
+      width: 100%;
+      grid-template-columns: 1fr;
+      grid-template-rows: 400px 400px;
+      
+    }
+
+
+    .headerphotos{
+      width: 25px;
+      height: 25px;
+      display: none;
+      
+    }
+    #mainlogo{
+      margin: auto;
+      width: 200px;
+      height: 150px;
+    }
+
+    #con-slider{
+      width: 200px;
+    }
+
+    h2{
+      font-size: 10px;
+    }
+    .sliderphotos{
+      height: 200px;
+       width: 200px;
+     
+    }
+
+    #mobilenav{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    #mobilenav a{
+      display: grid;
+      margin: auto;
+      text-decoration: none;
+      color: white;
+      text-shadow: 2px 2px black;
+    }
+
+    #mobilenav div{
+      display: grid;
+      margin: auto;
+      color: white;
+      background: rgba(255, 255, 255, 0);
+    }
+    
+
+    #bläddrafr{
+      height: 200px;
+    }
+    #desc{
+      width: 250px;
+    
+      margin: auto;
+      overflow: hidden;
+    }
+    #textinbox{
+      font-size: 13px;
+      width: 200px;
+    }
+
+    #textinbox h2{
+      
+        font-size: 15px;
+      
+    }
+    #bläddrabr{
+      height: 200px;
+    }
+    .navbar{
+      display: none;
+    }
+    #header{
+      height: 250px;
+      display: flex;
+      border-bottom: solid red 10px;
+    }
+
+    #footer{
+      height: 99vh;
+    }
+  }
